@@ -1,0 +1,114 @@
+body {
+    width: 500px;
+    margin: 4% auto;
+    font-family: fantasy;
+    letter-spacing: normal;
+    font-size: larger;
+    user-select: none;
+    background-image: url("https://images.unsplash.com/photo-1632207190829-a97e41017175?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=enric-moreu-IJUI81_0Wc4-unsplash.jpg");
+    background-position: top bottom;
+    background-size: cover;
+}
+
+.claculator {
+    padding: 20px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.input {
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 1cm;
+    overflow-x: auto;
+    transition: all .2s ease-in-out;
+    background-color: #060606;
+    color: #ddd;
+}
+
+.input:hover {
+    border: 2px solid rgb(97, 242, 247);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    width: 75px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    background-color: #6d9779;
+    transition: border-colo .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.operators div:hover {
+    background-color: rgb(168, 251, 208);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ef9696;
+}
+
+.operators div:active {
+    font-weight: bolder;
+}
+
+.number {
+    display: inline-block;
+}
+
+.numbers div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    width: 115px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    background-color: #375b71;
+    transition: border-colo .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div:hover {
+    background-color: rgb(153, 203, 222);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ef9696;
+}
+
+.numbers div:active {
+    font-weight: bolder;
+}
+
+div.equalto {
+    display: inline-block;
+    border: 1px solid #3079ED;
+    border-radius: 2px;
+    width: 450px;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4d90fe;
+    transition: all .2s ease-in-out;
+}
+
+div.equalto:hover {
+    background-color: aquamarine;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #e2b1db;
+}
+
+div.equalto:active {
+    font-weight: bolder;
+}
